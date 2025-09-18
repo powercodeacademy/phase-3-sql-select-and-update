@@ -25,7 +25,7 @@ In this code along, we'll be working with a `cats` table in the provided
 VSCode extension, or with DB Browser, or by running the `sqlite3` prompt:
 
 ```console
-$ sqlite3 pets_database.db
+sqlite3 pets_database.db
 sqlite> .schema
 CREATE TABLE cats (
   id INTEGER PRIMARY KEY,
@@ -73,7 +73,7 @@ editor. Each line needs to end with a `;`. Run the file with the following code
 in your terminal:
 
 ```console
-$ sqlite3 pets_database.db < 01_insert_cats_into_cats_table.sql
+sqlite3 pets_database.db < 01_insert_cats_into_cats_table.sql
 ```
 
 > **NOTE:** This command should be run from your terminal prompt, not in the
@@ -110,7 +110,7 @@ You can either open the database using the `sqlite3` CLI, and run the SQL
 commands from the terminal:
 
 ```console
-$ sqlite3 pets_database.db
+sqlite3 pets_database.db
 ```
 
 Or you can open the `pets_database.db` file in DB Browser for SQLite, and run
